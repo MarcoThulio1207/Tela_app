@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+
+
+body{
+    background-color: #1A9B5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.container-1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container-1 h1{
+    margin-top: 15px;
+    font-size: 28px;
+}
+
+.login-form {
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-form label{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3 ease;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+    border-color: #4CAF50;
+}
+
+.email{
+    font-size: 18px;
+    padding: 5px;
+}
+
+.login-texto{
+    font-size: 15px;
+    padding: 2px;
+}
+.password{
+    font-size: 18px;
+    padding: 5px;
+}
+
+.pass-login{
+    font-size: 15px;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+
+.container-4{
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.btn-entrar {
+    padding: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-entrar:hover {
+    background-color: #45a049;
+}
