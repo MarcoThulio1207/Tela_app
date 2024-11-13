@@ -1,3 +1,3 @@
-function navigateTo(produtogeotecnia){
-    window.location.href = produtogeotecnia;
+function navigateTo(produtocomacchio){
+    window.location.href = produtocomacchio;
 }

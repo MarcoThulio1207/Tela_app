@@ -22,10 +22,19 @@ body{
 .container-1 img{
     border-radius: 20px;
 }
+.container-produto-global {
+    padding: 20px;
+    padding-left: 390px;
+}
+
+.container-produto-global img{
+    border-radius: 20px;
+}
 
 .container-fornecedores{
     padding: 20px;
 }
+
 
 .fornecedores{
     display: flex;
@@ -61,6 +70,80 @@ body{
     cursor: pointer;
 
 }
+
+/* Estiliza slides produtos */
+.slides {
+    position: relative;
+}
+
+
+.container-fornecedores-global{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 100px;
+}
+
+.produtos-global h1{
+    color: white;
+    padding: 50px;
+}
+.produtos-global h2{
+    color: white;
+    padding: 50px;
+}
+
+.produtos-global img{
+    vertical-align: middle;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.1s;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev{
+    left: 20px;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fade {
+    animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+
+/* fim Estiliza slides produtos */
+
 
 .detalhes-fornecedores{
     flex: 1;
