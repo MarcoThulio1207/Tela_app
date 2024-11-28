@@ -20,6 +20,6 @@
 //     }
 // }
 
-function navigateTo(home){
-    window.location.href = home;
+function navigateTo(page){
+    window.location.href = page;
 }
