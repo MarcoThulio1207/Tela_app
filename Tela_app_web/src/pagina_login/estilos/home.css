@@ -60,3 +60,16 @@ h1{
     height: 200px;
     margin-bottom: 10px;
 }
+
+@media (max-width: 750px){
+    .btn-container{
+        align-items: center;
+        padding: 50px;
+    }
+
+    .button img{
+        margin-bottom: 10px;
+        width: 150px;
+        height: 150px;
+    }
+}

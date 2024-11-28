@@ -162,3 +162,54 @@ body{
 }
 
 
+
+@media (max-width: 750px){
+    .fornecedores img{
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .detalhes-fornecedores h1, p{
+        margin-top: 2px;
+    }
+
+    .container-1{
+        padding: 20px;
+        text-align: center;
+    }
+    .container-1 img{
+        margin: 0 auto;
+        display: block;
+        width: 350px;
+        height: 100px;
+    }
+
+    .container-produto-global{
+        padding: 20px;
+        text-align: center;
+    }
+    .container-produto-global img{
+        margin: 0 auto;
+        display: block;
+        width: 350px;
+        height: 100px;
+    }
+
+    .container-fornecedores-global img{
+        width: 350px;
+        height: 350px;
+    }
+    .container-fornecedores-global h1{
+        font-size: 20px;
+
+    }
+
+    .prev, .next {
+        width: 75px;
+        height: 75px;
+
+    }
+}
+
+

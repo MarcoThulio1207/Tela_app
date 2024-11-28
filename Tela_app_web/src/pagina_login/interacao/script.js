@@ -1,21 +1,25 @@
-const predefinidoEmail01 = "teste@gmail.com";
-const predefinidosenha01 = "123";
+// const predefinidoEmail01 = "";
+// const predefinidosenha01 = "";
 
 
-function login(){
-    const email = document.getElementById("email").value.trim();
-    const password = document.getElementById("password").value.trim();
+// function login(){
+//     const email = document.getElementById("email").value.trim();
+//     const password = document.getElementById("password").value.trim();
 
-    if(!email || !password){
-        alert("Por favor, preencha todos os campos")
-        return;
-    }
+//     if(!email || !password){
+//         alert("Por favor, preencha todos os campos")
+//         return;
+//     }
 
-    if (email == predefinidoEmail01  && password == predefinidosenha01){
-        alert("Login efetuado com sucesso!")
-        window.location.href = "home.html"
-    }
-    else {
-        alert("Email ou senha incorretos!")
-    }
+//     if (email == predefinidoEmail01  && password == predefinidosenha01){
+//         alert("Login efetuado com sucesso!")
+//         window.location.href = "home.html"
+//     }
+//     else {
+//         alert("Email ou senha incorretos!")
+//     }
+// }
+
+function navigateTo(home){
+    window.location.href = home;
 }
